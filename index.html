@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saif Labs</title>
+<meta name="description" content="Saif Labs is an Android application development studio based in Bengaluru, Karnataka, India.">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#14161a; --muted:#5b636e; --line:#e4e7ec;
+    --card:#f7f8fa; --accent:#1f5fd6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0e1116; --fg:#e8eaed; --muted:#9aa3af; --line:#232830;
+      --card:#151a21; --accent:#6f9ffb;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0e1116; --fg:#e8eaed; --muted:#9aa3af; --line:#232830;
+    --card:#151a21; --accent:#6f9ffb;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:0 16px}
+  header{border-bottom:1px solid var(--line); padding:28px 0}
+  .brand{font-size:20px; font-weight:700; letter-spacing:.14em; text-transform:uppercase}
+  .tag{color:var(--muted); font-size:14px; margin-top:4px}
+  main{padding:44px 0 8px}
+  h1{font-size:30px; line-height:1.25; margin:0 0 16px; letter-spacing:-.02em}
+  h2{font-size:15px; text-transform:uppercase; letter-spacing:.1em; color:var(--muted);
+     margin:44px 0 14px; font-weight:600}
+  p{margin:0 0 16px; color:var(--fg)}
+  .lead{font-size:18px; color:var(--muted)}
+  ul{margin:0 0 16px; padding-left:20px; color:var(--fg)}
+  li{margin-bottom:7px}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:20px}
+  .row{display:flex; gap:10px; padding:9px 0; border-bottom:1px solid var(--line); flex-wrap:wrap}
+  .row:last-child{border-bottom:0}
+  .k{min-width:96px; color:var(--muted); font-size:14px}
+  .v{flex:1; min-width:200px}
+  a{color:var(--accent); text-decoration:none}
+  a:hover{text-decoration:underline}
+  footer{border-top:1px solid var(--line); margin-top:52px; padding:22px 0 40px;
+         color:var(--muted); font-size:13.5px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">Saif Labs</div>
+    <div class="tag">Android application development &middot; Bengaluru, India</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>We build Android applications.</h1>
+  <p class="lead">
+    Saif Labs is an independent software studio in Bengaluru, Karnataka. We design,
+    develop and publish mobile applications for the Android platform.
+  </p>
+
+  <h2>What we do</h2>
+  <ul>
+    <li>Design and development of native Android applications</li>
+    <li>Publishing and ongoing maintenance of apps on Google Play</li>
+    <li>Custom software development and technical consulting</li>
+  </ul>
+
+  <h2>About</h2>
+  <p>
+    Saif Labs is a software studio registered in India under the Ministry of Micro,
+    Small and Medium Enterprises. The studio builds applications for the Android
+    platform, with a focus on well-crafted, reliable mobile software.
+  </p>
+
+  <h2>Contact</h2>
+  <div class="card">
+    <div class="row">
+      <div class="k">Email</div>
+      <div class="v"><a href="mailto:tahalakdawala03@gmail.com">tahalakdawala03@gmail.com</a></div>
+    </div>
+    <div class="row">
+      <div class="k">Location</div>
+      <div class="v">Bengaluru, Karnataka, India</div>
+    </div>
+  </div>
+  <p style="color:var(--muted); font-size:14px; margin-top:14px">
+    For business enquiries, please get in touch by email.
+  </p>
+</main>
+
+<footer class="wrap">
+  <div>Saif Labs &middot; Bengaluru, Karnataka, India</div>
+  <div>Udyam Registration Number: UDYAM-KR-03-0754908</div>
+</footer>
+
+</body>
+</html>
